@@ -1,0 +1,15 @@
+{
+  "name": "convex-ents-cascade-test",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "convex": "^1.28.0",
+    "convex-ents": "^0.16.0",
+    "convex-helpers": "^0.1.104",
+    "typescript": "^5.9.3"
+  }
+}
