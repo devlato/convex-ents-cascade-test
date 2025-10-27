@@ -40,6 +40,15 @@ const schema = defineEntSchema({
 			ref: "cat_age_2_id",
 			// NO deletion config here = no cascade from cat_ages_2 to cats_2
 		}),
+
+	cats_3: defineEnt({
+		name: v.string(),
+		cat_age_3_id: v.optional(v.id("cat_ages_3")),
+	}),
+
+	cat_ages_3: defineEnt({
+		age: v.number(),
+	}),
 });
 
 export default schema;
